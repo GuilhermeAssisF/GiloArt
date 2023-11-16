@@ -1,0 +1,227 @@
+.secao1{
+    display: flex;
+    height: 81vh;
+    width: 100%;
+}
+
+.home1{
+    padding-top: 5em;
+    padding-left: 7em;
+    display: flex;
+}
+
+.titulo_contato{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-bottom: 1em;
+}
+
+.titulo_home{
+    width: 14em;
+    flex-direction: column;
+    justify-content: center;
+    background: linear-gradient(96deg, #00FF0A 0.06%, #70FF00 54.92%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: Inter;
+    font-size: 75px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 0.85;
+    text-transform: lowercase;
+    padding-bottom: 0.1em;
+}
+
+.numero{
+    display: flex;
+    align-items: center;
+    transition: 0.4s;
+}
+.numero img{
+    max-width: 60px;
+    margin-right: 1em;
+}
+
+.numero h2{
+    color: #FFF;
+    text-align: center;
+    text-shadow: 0px 5px 0px rgba(255, 255, 255, 0.05);
+    font-family: Inria Sans;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    
+}
+
+.numero:hover{
+    -webkit-transform: scale(1.5);
+    transform: scale(1.05);
+    background: linear-gradient(96deg, #00FF0A 0.06%, #70FF00 54.92%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.titulo_contato{
+    padding-bottom: 2em;
+}
+
+.imagem_home img{
+    max-width:1000px;
+    max-height:460px;
+    width: auto;
+    height: auto;
+    position: absolute;
+    left: 57.5em;
+}
+
+.titulo_redes{
+    width: 14em;
+    flex-direction: column;
+    justify-content: center;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 75px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 0.85;
+    text-transform: lowercase;
+    padding-bottom: 0.3em;
+}
+
+#sociais_azul{
+    background: linear-gradient(94deg, #00E0FF 47.1%, #06F 128.74%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.redes_sociais_home img{
+    transition: 0.3s;
+    min-height: 150px;
+    margin-right: 20px;
+}
+
+.redes_sociais_home img:hover{
+    -webkit-transform: scale(1.5);
+    transform: scale(1.1);
+    opacity: 100%;
+}
+
+
+
+
+
+/*Rodape*/
+footer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.rodape{
+    display: flex ;
+    align-items: center;
+}
+
+.sobre_mim_footer{
+    background-color: #F0F0F0;
+    height: 6vh;
+}
+
+.rodape img{
+    max-width: 20px;
+}
+
+
+#rodape_texto{
+    color: #28272E;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-left: 5px;
+    padding-top: 2px;
+}
+
+.redes_sociais_footer img{
+    max-height: 35px;
+    margin-right: 7px;
+    opacity: 0.5;
+}
+
+@media (max-width: 999px){
+    body{
+        overflow-x: hidden;
+        overflow-y: hidden;
+        
+    }
+
+    main{
+        max-width: 50vh;
+    }
+
+
+
+    .imagem_home img{
+        display: none;
+    }
+
+    .numero h2{
+        font-size: 79px;
+    }
+
+    .titulo_home{
+       
+        font-size: 150px;
+
+    }
+
+    .titulo_contato{
+        padding-bottom: 10em;
+    }
+
+    .titulo_redes{
+        font-size: 90px;
+    }
+
+    .redes_sociais_home img{
+        
+        min-height: 175px;
+        
+    }
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
