@@ -154,6 +154,12 @@ footer{
     opacity: 0.5;
 }
 
+@media (max-width: 999px){
+    body{
+        display: none;
+    }
+}
+
 
 
 

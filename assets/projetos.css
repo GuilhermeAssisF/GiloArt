@@ -601,3 +601,9 @@ footer{
     margin-right: 7px;
     opacity: 0.5;
 }
+
+@media (max-width: 999px){
+    body{
+        display: none;
+    }
+}
