@@ -114,6 +114,7 @@ footer{
 
     nav{
         padding: 0 25%;
+        justify-content: center;
     }
     .nav-list{
         

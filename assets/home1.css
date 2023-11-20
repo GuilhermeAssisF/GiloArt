@@ -290,17 +290,14 @@ footer{
 }
 
 @media (max-width: 999px){
-    main{
-        
-        word-wrap: normal;
-    }
-
     .secao1{
-        height: 78vh;
+        height: 76vh;
         display: flex;
         flex-direction: column;
         align-items: center;
     }
+
+
 
 
 
