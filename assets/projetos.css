@@ -554,13 +554,23 @@ input{
     background-color: #F0F0F0;
 }
 
-#design_s5{
+#design_s5_1{
+    width: 62.5%;
+}
+
+#design_s5_2{
     width: 62.5%;
 }
 
 #radio1_s5:checked ~ .firsts5{
     margin-top: 0;   
 }
+
+#radio2_s5:checked ~ .firsts5{
+    margin-top: -115%;
+}
+
+
 
 
 /*Rodape*/
@@ -600,6 +610,10 @@ footer{
     max-height: 35px;
     margin-right: 7px;
     opacity: 0.5;
+}
+
+.rodape_mobile{
+    display: none;
 }
 
 @media (max-width: 999px){

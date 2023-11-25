@@ -290,6 +290,10 @@ footer{
     display: none;
 }
 
+.rodape_mobile{
+    display: none;
+}
+
 @media (max-width: 999px){
     .secao1{
         height: 78vh;
@@ -297,10 +301,6 @@ footer{
         flex-direction: column;
         align-items: center;
     }
-
-
-
-
 
     .titulo{
         display: none;
